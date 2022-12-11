@@ -1,0 +1,45 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+  }
+  div.outer {
+    background-color: white;
+    width: 300px;
+    height: 450px;
+    border-radius: 20px;
+    position: relative;
+    margin: 90px auto;
+  }
+  img {
+    position: absolute;
+    width: 270px;
+    height: 270px;
+    top: 10px;
+    right: 10px;
+    left: 15px;
+    bottom: 20px;
+    border-radius: 10px;
+  }
+  .heading {
+    position: absolute;
+    font-size: 24px;
+    top: 280px;
+    left: 12px;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    text-align: center;
+    font-Family:"Outfit";
+    
+  
+  }
+  .pragraph {
+    position: absolute;
+    font-size: 18px;
+    top: 360px;
+    left: 10px;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    text-align:center;
+    font-Family:"Outfit";
+
+ 
+  }
