@@ -1,16 +1,16 @@
 body {
     background-color: hsl(212, 45%, 89%);
   }
-  div.out {
+  div.outer{
     background-color: white;
     width: 300px;
     height: 450px;
     border-radius: 20px;
-   
+    position: relative;
     margin: 90px auto;
   }
   img {
-    
+    position: absolute;
     width: 270px;
     height: 270px;
     top: 10px;
@@ -20,7 +20,7 @@ body {
     border-radius: 10px;
   }
   .heading {
-    
+    position: absolute;
     font-size: 24px;
     top: 280px;
     left: 12px;
@@ -29,10 +29,11 @@ body {
     text-align: center;
     font-Family:"Outfit";
     
+    
   
   }
-  .p {
-    
+  .pragraph {
+    position: absolute;
     font-size: 18px;
     top: 360px;
     left: 10px;
